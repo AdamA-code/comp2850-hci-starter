@@ -25,6 +25,10 @@ dependencies {
     implementation("io.ktor:ktor-server-sessions-jvm:$ktorVersion")
     implementation("io.ktor:ktor-server-status-pages-jvm:$ktorVersion")
     implementation("io.ktor:ktor-server-call-logging-jvm:$ktorVersion")
+    implementation("io.ktor:ktor-server-core-jvm:2.3.4")
+    implementation("io.ktor:ktor-http-jvm:2.3.4")
+
+
 
     // Pebble templating
     implementation("io.pebbletemplates:pebble:$pebbleVersion")
